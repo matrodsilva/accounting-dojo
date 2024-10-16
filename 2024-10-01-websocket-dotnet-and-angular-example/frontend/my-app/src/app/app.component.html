@@ -1,0 +1,12 @@
+
+
+<input type="text" [(ngModel)]="usuario" placeholder="Digite seu username" />
+<p>user: {{ usuario }}</p>
+
+<button (click)="connectarUsuario()">conectar</button>
+
+
+<h1>arquivos prontos:</h1>
+
+<h4 *ngFor="let archive of this.processedArchives">{{archive}}</h4>
+

@@ -1,0 +1,6 @@
+@ArquiveStatus.Web_HostAddress = http://localhost:5296
+
+GET {{ArquiveStatus.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
